@@ -3,38 +3,86 @@
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
+            "scenario": "single task",
             "data_file": "data/texts.json",
             "stimuli": "What is acceptor atoms?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
+            "scenario": "single task",
             "data_file": "data/texts.json",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
+            "scenario": "single task",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "sentence",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "Ratio of collector current to emitter current in a bipolar junction transistor (BJT) Greek letter alpha \"a\" is the symbol used." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')." 
+        },
+        { 
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "phrase",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "system having only two symbols" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
+            "scenario": "single task",
             "data_file": "data/texts.json",
-            "stimuli": "What is acceptor atoms?" 
+            "stimuli": "What is avionics?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
+            "scenario": "single task",
             "data_file": "data/texts.json",
-            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+            "stimuli": "What is analog? Information represented as continuously varying voltage or current rather than in discrete levels as opposed to digital data varying between two discrete levels." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
+            "scenario": "single task",
             "data_file": "data/texts.json",
-            "stimuli": "number of positive charges" 
+            "stimuli": "value of voltage or current" 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "sentence",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "The positive electrode or terminal of a device. The \"P\" material of a diode." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "What is bistable multivibrator? A multi vibrator with two stable states. An external signal is required to change the output from one state to the other. Also called a latch." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "phrase",
+            "scenario": "multi task",
+            "data_file": "data/texts.json",
+            "stimuli": "used to measure current" 
         }        
     ]
 }

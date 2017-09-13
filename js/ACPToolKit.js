@@ -80,10 +80,12 @@ var ACPToolKit = (function () {
             currentTrialOptions = options;
 
             var data_file = options.data_file;
+            var scenario = options.scenario;
             var stimuli = options.stimuli;
 
             $('.js-expt-technique').text(options.technique);
             $('.js-expt-granularity').text(options.granularity);
+            $('.js-expt-scenario').text(options.scenario);
             $('.js-expt-stimuli').text(options.stimuli);
 
             // Clean up DOM
